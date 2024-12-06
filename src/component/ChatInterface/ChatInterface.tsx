@@ -1,8 +1,12 @@
 import style from "./ChatInterface.module.css";
 import user_Acc from "../../assets/common/User_Acc.png";
+import { useNavigate } from 'react-router-dom';
 
 function ChatInterface() {
+  const navigate = useNavigate();
+
   return (
+    
     <div className={style.wrapper}>
       <div className={style.sparkle1}>+</div>
       <div className={style.sparkle2}>+</div>
@@ -27,7 +31,7 @@ function ChatInterface() {
             alt="profile_image"
             className={style.profileImage}
           />
-          <p>Log Out</p>
+          <p onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>Log Out</p>
         </div>
       </div>
     </div>

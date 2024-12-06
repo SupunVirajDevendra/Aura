@@ -71,17 +71,17 @@ const ForgotPassword: React.FC = () => {
                         <p className="mt-5 text-center">or continue with</p>
                         <div className="row">
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto">
+                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
                                     <img src="/images/logo/google.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto">
+                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
                                     <img src="/images/logo/github.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto">
+                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
                                     <img
                                         src="/images/logo/facebook.png"
                                         alt=""
