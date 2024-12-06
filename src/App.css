@@ -1,0 +1,131 @@
+body {
+    font-family: 'Press Start 2P', system-ui !important;
+    background: rgb(29, 49, 60);
+    background: linear-gradient(
+        180deg,
+        rgba(29, 49, 60, 1) 35%,
+        rgba(78, 133, 162, 1) 100%
+    );
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+p {
+    font-size: 9px;
+}
+
+.greetings-heading {
+    margin-top: 65px;
+}
+
+.greetings-heading h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.greetings-heading h1 > span {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #f07c40;
+}
+
+.auth-form {
+    width: 100%;
+    max-width: 568px;
+    height: max-content;
+    padding: 48px 24px;
+    background: #ffffff1a;
+    border: 3px solid;
+    border-radius: 40px;
+    border-image-source: linear-gradient(
+        135.59deg,
+        rgba(255, 255, 255, 0.79) -46.49%,
+        rgba(255, 255, 255, 0.24) 48.49%
+    );
+    backdrop-filter: blur(25px);
+}
+
+.auth-form h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+}
+
+.auth-form button {
+    margin: 0;
+    padding: 14px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #fff;
+    background: #bd0c47;
+}
+
+.auth-form button:hover {
+    background: #f07c40;
+}
+
+.auth-form label {
+    color: #fff;
+}
+
+.auth-form p {
+    color: #fff;
+}
+
+.auth-form p span {
+    color: #071c26;
+}
+
+.auth-form .col-4 .card {
+    height: 55px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+
+.auth-form .col-4 .card img {
+    width: 25px;
+    height: 25px;
+}
+
+.star {
+    position: absolute;
+    background: url('/images/logo/star.png') no-repeat center center;
+    /* background: url('/images/logo/rocket.png') no-repeat center center; */
+    background-size: contain;
+    animation: blink 2s infinite ease-in-out;
+    z-index: -2;
+}
+
+/* Blinking animation */
+@keyframes blink {
+    0%,
+    100% {
+        transform: scale(0.8);
+        opacity: 0.6;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
