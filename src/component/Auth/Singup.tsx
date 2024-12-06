@@ -16,10 +16,10 @@ const Signup: React.FC = () => {
                 </h1>
             </div>
             <div className="row">
-                <div className="col-4">
+                <div className="col-12 col-md-4">
                     <CommonColumn />
                 </div>
-                <div className="col-8 d-flex flex-column justify-content-center align-items-center">
+                <div className="col-12 col-md-8 d-flex flex-column justify-content-center align-items-center">
                     <form className="auth-form d-flex flex-column">
                         <h2 className="mb-3">Register</h2>
                         <div className="mb-3">
@@ -44,21 +44,35 @@ const Signup: React.FC = () => {
                                 placeholder="Password"
                             />
                         </div>
-                        <button className="btn btn-primary" onClick={() => navigate('/intro')}>Register</button>
+                        <button
+                            className="btn btn-primary"
+                            onClick={() => navigate('/intro')}
+                        >
+                            Register
+                        </button>
                         <p className="mt-5 text-center">or continue with</p>
                         <div className="row">
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
+                                <div
+                                    className="card p-2 my-2 mx-auto"
+                                    onClick={() => navigate('/intro')}
+                                >
                                     <img src="/images/logo/google.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
+                                <div
+                                    className="card p-2 my-2 mx-auto"
+                                    onClick={() => navigate('/intro')}
+                                >
                                     <img src="/images/logo/github.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
+                                <div
+                                    className="card p-2 my-2 mx-auto"
+                                    onClick={() => navigate('/intro')}
+                                >
                                     <img
                                         src="/images/logo/facebook.png"
                                         alt=""
