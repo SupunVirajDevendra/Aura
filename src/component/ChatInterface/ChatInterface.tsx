@@ -16,17 +16,6 @@ function ChatInterface() {
                         <p>Are aliens real?</p>
                     </div>
                 </div>
-
-<<<<<<< HEAD
-      <div className={style.side_panel}>
-        <div className={style.q}>
-          <div className={style.q1} onClick={() => navigate('/existing')} style={{ cursor: 'pointer' }}>
-            <p>How far is Mar....</p>
-          </div>
-          <div className={style.q2}>
-            <p>Are aliens real?</p>
-          </div>
-=======
                 <div className={style.user}>
                     <img
                         src={user_Acc}
@@ -41,7 +30,6 @@ function ChatInterface() {
                     </p>
                 </div>
             </div>
->>>>>>> 49090a1ae7b3af2026366638022317156187488a
         </div>
     );
 }
