@@ -14,7 +14,7 @@ function ChatInterface() {
       <div className={style.side_panel}>
         <div className={style.q}>
           <div className={style.q1}>
-            <p>How far is Mar..</p>
+            <p>How far is Mar...</p>
           </div>
           <div className={style.q2}>
             <p>Are aliens real?</p>
