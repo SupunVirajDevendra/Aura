@@ -25,6 +25,42 @@
     border-bottom-right-radius: 3cap;
   }
 
+  .q1{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    background-color: #FFFC9A;
+    width: 35vh;
+    height: 7vh;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .q1 p{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 40px;
+    color: black;
+  }
+
+  .q2{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    background-color: #FFFC9A;
+    width: 35vh;
+    height: 7vh;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .q2 p{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 40px;
+    color: black;
+  }
+
   .sparkle1{
     position:absolute;
     top: 30%;

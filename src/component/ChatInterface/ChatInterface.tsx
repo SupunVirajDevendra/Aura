@@ -12,9 +12,22 @@ function ChatInterface() {
             <div className={style.sparkle5}>+</div>
             <div className={style.sparkle6}>+</div>
 
-            <div className={style.box}>Chat
+            <div className={style.box}>
+
+                <a href="">
+                <div className={style.q1}>
+                    <p>How far is Mar..</p>
+                </div>
+                </a>
+
+                <a href="">
+                <div className={style.q2}>
+                    <p>Are aliens real?</p>
+                </div>
+                </a>
+
             <a href="" className={style.imageLink}>
-                <img src={user_Acc} alt="profile image" className={style.profileImage} />
+                <img src={user_Acc} alt="profile_image" className={style.profileImage} />
             </a>
             <a href="" className={style.logOut}>
                 <p>Log Out</p>
