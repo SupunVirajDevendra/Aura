@@ -7,7 +7,7 @@ function App() {
 =======
   return (
     <div>
-      {/* <IntroPage /> */}
+      <IntroPage />
     </div>
   );
 >>>>>>> 3d7247f6db672725e230d51a886e99212fee5779

@@ -19,10 +19,14 @@ function IntroPage() {
               Meet <span>Aura</span>
             </h1>
             <div id={style.info_1}>
-
+              <img src="" alt="" />
             </div>
-            <div id={style.info_2}></div>
-            <div id={style.info_3}></div>
+            <div id={style.info_2}>
+            <img src="" alt="" />
+            </div>
+            <div id={style.info_3}>
+            <img src="" alt="" />
+            </div>
           </div>
 
           <div className={style.image_right}>
