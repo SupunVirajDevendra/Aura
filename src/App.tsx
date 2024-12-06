@@ -1,6 +1,7 @@
+import IntroPage from "./component/IntroPage/IntroPage";
 
 function App() {
-  return <h1> Hello World</h1>
+  return <div><IntroPage /></div>;
 }
 
 export default App;
