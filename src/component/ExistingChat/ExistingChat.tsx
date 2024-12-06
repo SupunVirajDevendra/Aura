@@ -10,7 +10,10 @@ function ChatInterface() {
     <div className={style.wrapper}>
       <div className={style.side_panel}>
         <div className={style.q}>
-          <div className={style.q1} onClick={() => navigate('/existing')} style={{ cursor: 'pointer' }}>
+        <div className={style.q1} onClick={() => navigate('/chat')} style={{ cursor: 'pointer' }}>
+            <p>+ New Chat</p>
+          </div>
+          <div className={style.q1}>
             <p>How far is Mar....</p>
           </div>
           <div className={style.q2}>
