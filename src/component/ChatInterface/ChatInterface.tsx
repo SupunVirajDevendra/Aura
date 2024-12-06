@@ -14,21 +14,26 @@ function ChatInterface() {
             </div>
 
             <div className={style.welcome}>
-                <h1>Welcome to</h1>
-                <h2>Aura</h2>
-                <p>How may i help you today?</p>
+                <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
+                <h2 style={{ textAlign: 'center' }}>Aura</h2>
+                <p style={{ textAlign: 'center' }}>How may i help you today?</p>
             </div>
 
             <div className={style.logoC}>
                 <img src={logonn} alt="moon" className={style.logoImageC} />
             </div>
 
-            {/* a input bar */}
             <input
                 type="text"
                 placeholder="Type a message"
                 className={style.input_bar}
-                style={{ marginTop: '500px' }}
+                style={{
+                    marginTop: '500px',
+                    padding: '10px',
+                    marginLeft: '100px',
+                    width: '50%',
+                    borderRadius: '10px',
+                }}
             />
 
             <div className={style.side_panel}>
