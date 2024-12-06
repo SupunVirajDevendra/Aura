@@ -16,10 +16,9 @@ function IntroPage() {
   }
 
   return (
-    <div className={style.wrapper}>
-            <a href="" className={style.imageLink}>
+    <div className={style.wrapper}> 
                 <img src={user_Acc} alt="profile_image" className={style.profileImage} />
-            </a>
+            
 
             <div className={style.sparkle1}>+</div>
             <div className={style.sparkle2}>+</div>

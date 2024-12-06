@@ -11,10 +11,10 @@
     font-family: "Press Start 2P", system-ui;
   }
 
-  .box{
-    display: left;
-    justify-content: left;
-    align-items: left;
+  .side_panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh; /* Full viewport height */
     position: absolute; /* Allows positioning of child elements */
     top: 0;
@@ -23,42 +23,46 @@
     width: 40vh;
     border-top-right-radius: 3cap;
     border-bottom-right-radius: 3cap;
+    padding-top:50px;
+    padding-bottom:20px;
   }
 
-  .q1{
-    position: absolute;
-    top: 10%;
-    left: 0%;
+  .q {
+    height: 100%;
+  }
+
+  .q1, .q2{
+    margin-top: 10%;
     background-color: #FFFC9A;
     width: 35vh;
     height: 7vh;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    overflow: hidden;
   }
 
-  .q1 p{
-    margin-top: 20px;
+  .q1 p, .q2 p{
+    padding-top: 15px;
     text-align: right;
-    margin-right: 40px;
     color: black;
+    clip-path: inset(0 20px 0 0);
+
+  }
+  
+  .user{
+    padding:0 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .q2{
-    position: absolute;
-    top: 20%;
-    left: 0%;
-    background-color: #FFFC9A;
-    width: 35vh;
-    height: 7vh;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+  .user p {
+    color: #ffffff;
   }
 
-  .q2 p{
-    margin-top: 20px;
-    text-align: right;
-    margin-right: 40px;
-    color: black;
+  .user img {
+    width: 40px;
+    height: 40px;
   }
 
   .sparkle1{
@@ -131,19 +135,9 @@
   }
 
   .profileImage{
-    position: absolute;
-    top: 55em;
-    left: 0;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    margin: 10px;
+    
   }
 
   .logOut{
-    position: absolute;
-    top: 94.5%;
-    left: 15em;
-    object-fit: cover;
-    color: aliceblue;
+   
   }
