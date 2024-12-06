@@ -83,3 +83,30 @@
     top: 0%;
     left: 88%;
   }
+
+ .welcome{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+ } 
+
+ .welcome h1{
+  text-shadow: 1px 1px 2px #ff6f00, -1px -1px 2px #fadac1,
+  1px -1px 2px #fadac1, -1px 1px 2px #fadac1;font-size: 50px;
+ }
+
+ .welcome h2{
+  color: #F07C40;
+  text-shadow: 1px 1px 2px #ff6f00, -1px -1px 2px #fadac1,
+  1px -1px 2px #fadac1, -1px 1px 2px #fadac1;font-size: 50px;
+ }
+
+ .welcome p{
+  font-size: 20px;
+ }
+

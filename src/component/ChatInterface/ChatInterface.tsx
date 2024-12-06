@@ -13,6 +13,11 @@ function ChatInterface() {
         <img src={Moon} alt="moon" className={style.moonImage} />
       </div>
 
+      <div className={style.welcome}>
+            <h1>Welcome to</h1><h2>Aura</h2>
+            <p>How may i help you today?</p>
+      </div>
+
       <div className={style.logoC}>
         <img src={logonn} alt="moon" className={style.logoImageC} />
       </div>
