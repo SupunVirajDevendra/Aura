@@ -2,7 +2,7 @@ import style from "./ExistingChat.module.css";
 import user_Acc from "../../assets/common/User_Acc.png";
 import { useNavigate } from 'react-router-dom';
 
-function ChatInterface() {
+function ExistingChat() {
   const navigate = useNavigate();
 
   return (
@@ -34,4 +34,4 @@ function ChatInterface() {
   );
 }
 
-export default ChatInterface;
+export default ExistingChat;
