@@ -16,10 +16,10 @@ const ForgotPassword: React.FC = () => {
                 </h1>
             </div>
             <div className="row">
-                <div className="col-4">
+                <div className="col-12 col-md-4">
                     <CommonColumn />
                 </div>
-                <div className="col-8 d-flex flex-column justify-content-center align-items-center">
+                <div className="col-12 col-md-8 d-flex flex-column justify-content-center align-items-center">
                     <form className="auth-form d-flex flex-column">
                         <div className="row">
                             <div className="col-10">
@@ -71,17 +71,26 @@ const ForgotPassword: React.FC = () => {
                         <p className="mt-5 text-center">or continue with</p>
                         <div className="row">
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
+                                <div
+                                    className="card p-2 my-2 mx-auto"
+                                    onClick={() => navigate('/intro')}
+                                >
                                     <img src="/images/logo/google.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
+                                <div
+                                    className="card p-2 my-2 mx-auto"
+                                    onClick={() => navigate('/intro')}
+                                >
                                     <img src="/images/logo/github.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-4">
-                                <div className="card p-2 my-2 mx-auto" onClick={() => navigate('/intro')}>
+                                <div
+                                    className="card p-2 my-2 mx-auto"
+                                    onClick={() => navigate('/intro')}
+                                >
                                     <img
                                         src="/images/logo/facebook.png"
                                         alt=""

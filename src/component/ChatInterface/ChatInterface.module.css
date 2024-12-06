@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .wrapper {
     display: flex;
     justify-content: center;
@@ -6,12 +6,12 @@
     height: 101vh; /* Full viewport height */
     margin: 0; /* Remove default body margin */
     position: relative; /* Allows positioning of child elements */
-    background-color: #1d262a;
+    /* background-color: #1d262a; */
     width: auto;
-    font-family: "Press Start 2P", system-ui;
-  }
+    font-family: 'Press Start 2P', system-ui;
+}
 
-  .side_panel{
+.side_panel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,121 +23,120 @@
     width: 40vh;
     border-top-right-radius: 3cap;
     border-bottom-right-radius: 3cap;
-    padding-top:50px;
-    padding-bottom:20px;
-  }
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 
-  .q {
+.q {
     height: 100%;
-  }
+}
 
-  .q1, .q2{
+.q1,
+.q2 {
     margin-top: 10%;
-    background-color: #FFFC9A;
+    background-color: #fffc9a;
     width: 35vh;
     height: 7vh;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     overflow: hidden;
-  }
+}
 
-  .q1 p, .q2 p{
+.q1 p,
+.q2 p {
     padding-top: 15px;
     text-align: right;
     color: black;
     clip-path: inset(0 20px 0 0);
+}
 
-  }
-  
-  .user{
-    padding:0 5% 0 5%;
+.user {
+    padding: 0 5% 0 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  .user p {
+.user p {
     color: #ffffff;
-  }
+}
 
-  .user img {
+.user img {
     width: 40px;
     height: 40px;
-  }
+}
 
-  .sparkle1{
-    position:absolute;
+.sparkle1 {
+    position: absolute;
     top: 30%;
     left: 80%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 2em;
     animation: sparkleAnimation 1.5s infinite alternate;
-  }
+}
 
-  .sparkle2{
-    position:absolute;
+.sparkle2 {
+    position: absolute;
     top: 10%;
     left: 70%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 2em;
     animation: sparkleAnimation 1.5s infinite alternate;
-  }
+}
 
-  .sparkle3{
-    position:absolute;
+.sparkle3 {
+    position: absolute;
     top: 0%;
     left: 30%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 2em;
     animation: sparkleAnimation 1.5s infinite alternate;
-  }
+}
 
-  .sparkle4{
-    position:absolute;
+.sparkle4 {
+    position: absolute;
     top: 50%;
-    left: 30%;    
+    left: 30%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 2em;
     animation: sparkleAnimation 1.5s infinite alternate;
-  }
+}
 
-  .sparkle5{
-    position:absolute;
+.sparkle5 {
+    position: absolute;
     top: 70%;
     left: 24%;
-    color: rgba(255, 255, 255, 0.5);    
-    font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate;
-  }
-
-  .sparkle6{
-    position:absolute;
-    top: 90%;
-    left: 90%;    
     color: rgba(255, 255, 255, 0.5);
     font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate; 
-  } 
+    animation: sparkleAnimation 1.5s infinite alternate;
+}
 
-  @keyframes sparkleAnimation {
+.sparkle6 {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    animation: sparkleAnimation 1.5s infinite alternate;
+}
+
+@keyframes sparkleAnimation {
     0% {
-      opacity: 0.2;
-      transform: scale(1);
+        opacity: 0.2;
+        transform: scale(1);
     }
     50% {
-      opacity: 1;
-      transform: scale(1.5);
+        opacity: 1;
+        transform: scale(1.5);
     }
     100% {
-      opacity: 0.2;
-      transform: scale(1);
+        opacity: 0.2;
+        transform: scale(1);
     }
-  }
+}
 
-  .profileImage{
-    
-  }
+.profileImage {
+}
 
-  .logOut{
-   
-  }
+.logOut {
+}
