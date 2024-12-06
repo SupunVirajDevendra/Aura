@@ -6,7 +6,6 @@
     height: 101vh; /* Full viewport height */
     margin: 0; /* Remove default body margin */
     position: relative; /* Allows positioning of child elements */
-    /* background-color: #1d262a; */
     width: auto;
     font-family: 'Press Start 2P', system-ui;
 }
@@ -19,13 +18,14 @@
     position: absolute; /* Allows positioning of child elements */
     top: 0;
     left: 0;
-    background: rgba(61, 115, 122, 0.5);
+    background: rgba(61, 115, 122, 1);
     width: 40vh;
+    height: 100vh;
     border-top-right-radius: 3cap;
     border-bottom-right-radius: 3cap;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
+    padding-top:10px;
+    padding-bottom:20px;
+  }
 
 .q {
     height: 100%;
@@ -42,101 +42,43 @@
     overflow: hidden;
 }
 
-.q1 p,
-.q2 p {
-    padding-top: 15px;
+  .q1 p, .q2 p{
     text-align: right;
     color: black;
     clip-path: inset(0 20px 0 0);
-}
+    font-size: 16px;
+    padding-top: 7%;
 
-.user {
-    padding: 0 5% 0 5%;
+  }
+  
+  .user{
+    padding:0 5% 0 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.user p {
+  .user p {
+    padding-top: 30px;
     color: #ffffff;
-}
+    font-size: large;
+  }
 
-.user img {
-    width: 40px;
-    height: 40px;
-}
+  .user img {
+    width: 60px;
+    height: 60px;
+  }
 
-.sparkle1 {
+  .logoImageC{
     position: absolute;
-    top: 30%;
-    left: 80%;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate;
-}
+    top: 45%;
+    left: 50%;
+    width: 10%;
+    height: auto;
+  }
 
-.sparkle2 {
-    position: absolute;
-    top: 10%;
-    left: 70%;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate;
-}
-
-.sparkle3 {
-    position: absolute;
+  .moon{
+    position:absolute;
     top: 0%;
-    left: 30%;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate;
-}
-
-.sparkle4 {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate;
-}
-
-.sparkle5 {
-    position: absolute;
-    top: 70%;
-    left: 24%;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate;
-}
-
-.sparkle6 {
-    position: absolute;
-    top: 90%;
-    left: 90%;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 2em;
-    animation: sparkleAnimation 1.5s infinite alternate;
-}
-
-@keyframes sparkleAnimation {
-    0% {
-        opacity: 0.2;
-        transform: scale(1);
-    }
-    50% {
-        opacity: 1;
-        transform: scale(1.5);
-    }
-    100% {
-        opacity: 0.2;
-        transform: scale(1);
-    }
-}
-
-.profileImage {
-}
-
-.logOut {
-}
+    left: 88%;
+  }
