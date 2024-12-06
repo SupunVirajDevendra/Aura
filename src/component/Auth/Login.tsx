@@ -51,7 +51,8 @@ const Login: React.FC = () => {
                         >
                             Forgot Password?
                         </p>
-                        <button className="btn btn-primary">Sign in</button>
+                        <button className="btn btn-primary" onClick={() => navigate('/intro')}
+                            style={{ cursor: 'pointer' }}>Sign in</button>
                         <p className="mt-5 text-center">or continue with</p>
                         <div className="row">
                             <div className="col-4">

@@ -44,7 +44,7 @@ const Signup: React.FC = () => {
                                 placeholder="Password"
                             />
                         </div>
-                        <button className="btn btn-primary">Register</button>
+                        <button className="btn btn-primary" onClick={() => navigate('/intro')}>Register</button>
                         <p className="mt-5 text-center">or continue with</p>
                         <div className="row">
                             <div className="col-4">
