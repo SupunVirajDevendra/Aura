@@ -145,7 +145,76 @@ padding-bottom: 20px;
   color: #ffffff;
 }
 .start_button img {
-  width: 65px;
+  width: 15px;
   height: 65px;
   padding-bottom: 2px;
+}
+
+.sparkle1{
+  position:absolute;
+  top: 70%;
+  left: 80%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  animation: sparkleAnimation 1.5s infinite alternate;
+}
+
+.sparkle2{
+  position:absolute;
+  top: 10%;
+  left: 70%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  animation: sparkleAnimation 1.5s infinite alternate;
+}
+
+.sparkle3{
+  position:absolute;
+  top: 0%;
+  left: 90%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  animation: sparkleAnimation 1.5s infinite alternate;
+}
+
+.sparkle4{
+  position:absolute;
+  top: 20%;
+  left: 10%;    
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  animation: sparkleAnimation 1.5s infinite alternate;
+}
+
+.sparkle5{
+  position:absolute;
+  top: 70%;
+  left: 4%;
+  color: rgba(255, 255, 255, 0.5);    
+  font-size: 2em;
+  animation: sparkleAnimation 1.5s infinite alternate;
+}
+
+.sparkle6{
+  position:absolute;
+  top: 90%;
+  left: 90%;    
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  animation: sparkleAnimation 1.5s infinite alternate; 
+} 
+
+@keyframes sparkleAnimation {
+  0% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
 }

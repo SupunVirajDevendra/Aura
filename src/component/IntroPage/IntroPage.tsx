@@ -5,6 +5,7 @@ import logo from "../../assets/common/logonn.png";
 import rocket1 from "../../assets/common/rocket-1.png";
 import rocket2 from "../../assets/common/rocket-2.png";
 import rocket3 from "../../assets/common/rocket-3.png";
+import user_Acc from "../../assets/chat_Interface/User_Acc_logo.png";
 
 
 function IntroPage() {
@@ -16,7 +17,17 @@ function IntroPage() {
 
   return (
     <div className={style.wrapper}>
-      <img src="" alt="profile image" className={style.profileImage} />
+            <a href="" className={style.imageLink}>
+                <img src={user_Acc} alt="profile_image" className={style.profileImage} />
+            </a>
+
+            <div className={style.sparkle1}>+</div>
+            <div className={style.sparkle2}>+</div>
+            <div className={style.sparkle3}>+</div>
+            <div className={style.sparkle4}>+</div>
+            <div className={style.sparkle5}>+</div>
+            <div className={style.sparkle6}>+</div>
+
       <div className={style.main_div}>
         {/* Intro panel */}
         <div className={style.intro_div}>
