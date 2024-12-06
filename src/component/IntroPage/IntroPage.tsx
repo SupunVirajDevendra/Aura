@@ -1,4 +1,5 @@
 import style from "./IntroPage.module.css";
+import { useNavigate } from "react-router-dom";
 import ufoImage from "../../assets/intro_page/ufo.png";
 import logo from "../../assets/common/logonn.png";
 import rocket1 from "../../assets/common/rocket-1.png";
@@ -7,6 +8,12 @@ import rocket3 from "../../assets/common/rocket-3.png";
 
 
 function IntroPage() {
+  const navigate = useNavigate();
+
+  function onClick(){
+    navigate("/chat");
+  }
+
   return (
     <div className={style.wrapper}>
       <img src="" alt="profile image" className={style.profileImage} />
@@ -42,7 +49,7 @@ function IntroPage() {
         </div>
 
         {/* Start Button */}
-        <button className={style.start_button}>
+        <button className={style.start_button} onClick={onClick}>
           <img src={ufoImage} alt="UFO" />
           <span>Start</span>
         </button>

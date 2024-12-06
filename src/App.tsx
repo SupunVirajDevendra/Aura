@@ -1,12 +1,16 @@
-import IntroPage from "./component/IntroPage/IntroPage.tsx";
-import ChatInterface from "./component/ChatInterface/ChatInterface.tsx";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import IntroPage from "./component/IntroPage/IntroPage";
+import ChatInterface from "./component/ChatInterface/ChatInterface";
 
 function App() {
-  return <div><ChatInterface /></div>;
   return (
-    <div>
-      <IntroPage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<IntroPage />} />
+        <Route path="/chat" element={<ChatInterface />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -57,10 +57,6 @@
     overflow: hidden;
 } 
 
-.image_left{
-    clip-path: inset(0 -50% 0 0);
-}
-
 .image_left img, .image_right img{
     width: 400px;
     height: 400px;
