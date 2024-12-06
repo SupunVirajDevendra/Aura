@@ -6,7 +6,6 @@ import ForgotPassword from './component/Auth/forgotPassword';
 import StarsContainer from './component/StarsContainer';
 import ChatInterface from "./component/ChatInterface/ChatInterface";
 import IntroPage from "./component/IntroPage/IntroPage";
-import ExistingChat from './component/ExistingChat/ExistingChat';
 
 function App() {
     return (
@@ -24,7 +23,6 @@ function App() {
                     />
                     <Route path="/intro" element={<IntroPage />} />
                     <Route path="/chat" element={<ChatInterface />} />
-                    <Route path='/existing' element ={<ExistingChat />} />
                 </Routes>
             </Router>
         </>
