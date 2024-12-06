@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: content-box; /* Overwrite box sizing in global css*/
-}
-
 .wrapper {
   display: flex;
   justify-content: center;
@@ -50,9 +44,15 @@
   text-align: center; /* Center text horizontally */
   width: 100%;
   height: 70%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.intro_div h1 {
+.intro_div img {
+    width: 20%;
+}
+
+.title h1 {
     text-shadow: 
         1px 1px 2px #FADAC1,
         -1px -1px 2px #FADAC1,
@@ -60,7 +60,7 @@
         -1px 1px 2px #FADAC1;
 }
 
-.intro_div h1 span {
+.title h1 span {
     font-size: 70px;
     color: #F6723A;
 }
