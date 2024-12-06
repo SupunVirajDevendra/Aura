@@ -1,4 +1,4 @@
-import IntroPage from "./component/ChatInterface/ChatInterface.tsx";
+import IntroPage from "./component/IntroPage/IntroPage.tsx";
 import ChatInterface from "./component/ChatInterface/ChatInterface.tsx";
 
 function App() {
