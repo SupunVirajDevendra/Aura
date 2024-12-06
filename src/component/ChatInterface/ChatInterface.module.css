@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .wrapper {
     display: flex;
     justify-content: center;
@@ -7,10 +7,10 @@
     margin: 0; /* Remove default body margin */
     position: relative; /* Allows positioning of child elements */
     width: auto;
-    font-family: "Press Start 2P", system-ui;
-  }
+    font-family: 'Press Start 2P', system-ui;
+}
 
-  .side_panel{
+.side_panel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,19 +27,20 @@
     padding-bottom:20px;
   }
 
-  .q {
+.q {
     height: 100%;
-  }
+}
 
-  .q1, .q2{
+.q1,
+.q2 {
     margin-top: 10%;
-    background-color: #FFFC9A;
+    background-color: #fffc9a;
     width: 35vh;
     height: 7vh;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     overflow: hidden;
-  }
+}
 
   .q1 p, .q2 p{
     text-align: right;
@@ -55,7 +56,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
   .user p {
     padding-top: 30px;

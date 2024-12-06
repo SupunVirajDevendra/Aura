@@ -5,7 +5,7 @@ import logonn from "../../assets/common/logonn.png";
 import { useNavigate } from 'react-router-dom';
 
 function ChatInterface() {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
   return (
     

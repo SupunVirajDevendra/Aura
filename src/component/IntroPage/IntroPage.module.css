@@ -1,107 +1,108 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
-  margin: 0; /* Remove default body margin */
-  position: relative; /* Allows positioning of child elements */
-  background-color: #1d262a;
-  width: auto;
-  font-family: "Press Start 2P", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+    position: relative; /* Allows positioning of child elements */
+    /* background-color: #1d262a; */
+    width: auto;
+    font-family: 'Press Start 2P', system-ui;
 }
 
 /* Style for the profile image */
 .profileImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 10px;
 }
 
 .main_div {
-  width: 60%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .intro_div {
-  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
-  backdrop-filter: blur(10px); /* Apply blur effect */
-  -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border for definition */
-  border-radius: 40px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-  padding: 0px; /* Inner spacing */
-  color: white; /* Text color to contrast the background */
-  text-align: center; /* Center text horizontally */
-  width: 100%;
-  height: 70%;
-  display: flex;
-  justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border for definition */
+    border-radius: 40px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 0px; /* Inner spacing */
+    color: white; /* Text color to contrast the background */
+    text-align: center; /* Center text horizontally */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.image_left, .image_right{
+.image_left,
+.image_right {
     position: relative;
     width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-} 
+}
 
-.image_left img, .image_right img{
+.image_left img,
+.image_right img {
     width: 400px;
     height: 400px;
     position: absolute;
     opacity: 50%;
 }
 
-.image_left img{
+.image_left img {
     left: 0;
     transform: translate(-50%, 0%);
 }
 
-.image_right img{
+.image_right img {
     right: 0;
     transform: translate(50%, 0%);
 }
 
 .info {
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 .info h1 {
-    text-shadow: 
-        1px 1px 2px #FADAC1,
-        -1px -1px 2px #FADAC1,
-        1px -1px 2px #FADAC1,
-        -1px 1px 2px #FADAC1;
+    text-shadow: 1px 1px 2px #fadac1, -1px -1px 2px #fadac1,
+        1px -1px 2px #fadac1, -1px 1px 2px #fadac1;
 }
 
 .info h1 span {
     font-size: 70px;
-    color: #F6723A;
+    color: #f6723a;
 }
 
 .info div {
     height: 20%;
     width: 100%;
     border-radius: 30px;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
-#info_1, #info_2, #info_3 {
+#info_1,
+#info_2,
+#info_3 {
     display: flex;
     align-items: center;
     width: 100%;
@@ -109,112 +110,114 @@ padding-bottom: 20px;
     justify-content: space-evenly;
 }
 
-#info_1{
-    background-color: #F08042;
+#info_1 {
+    background-color: #f08042;
 }
 
-#info_2{
-    background-color: #BE6534;
+#info_2 {
+    background-color: #be6534;
 }
 
-#info_3{
-    background-color: #A3572D;
+#info_3 {
+    background-color: #a3572d;
 }
 
-#info_1 img, #info_2 img, #info_3 img {
-   margin-right: 20px;
+#info_1 img,
+#info_2 img,
+#info_3 img {
+    margin-right: 20px;
     width: 50px;
     height: 50px;
     transform: rotate(45deg);
 }
 
 .start_button {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 80px;
-  width: 200px;
-  margin: 10px;
-  background-color: #ea283c;
-  border-radius: 40px;
-  border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    margin: 10px;
+    background-color: #ea283c;
+    border-radius: 40px;
+    border: none;
 }
 .start_button span {
-  padding-right: 10px;
-  font-size: 20px;
-  color: #ffffff;
+    padding-right: 10px;
+    font-size: 20px;
+    color: #ffffff;
 }
 .start_button img {
-  width: 65px;
-  height: 65px;
-  padding-bottom: 2px;
+    width: 65px;
+    height: 65px;
+    padding-bottom: 2px;
 }
 
-.sparkle1{
-  position:absolute;
-  top: 70%;
-  left: 80%;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 2em;
-  animation: sparkleAnimation 1.5s infinite alternate;
+.sparkle1 {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    animation: sparkleAnimation 1.5s infinite alternate;
 }
 
-.sparkle2{
-  position:absolute;
-  top: 10%;
-  left: 70%;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 2em;
-  animation: sparkleAnimation 1.5s infinite alternate;
+.sparkle2 {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    animation: sparkleAnimation 1.5s infinite alternate;
 }
 
-.sparkle3{
-  position:absolute;
-  top: 0%;
-  left: 90%;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 2em;
-  animation: sparkleAnimation 1.5s infinite alternate;
+.sparkle3 {
+    position: absolute;
+    top: 0%;
+    left: 90%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    animation: sparkleAnimation 1.5s infinite alternate;
 }
 
-.sparkle4{
-  position:absolute;
-  top: 20%;
-  left: 10%;    
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 2em;
-  animation: sparkleAnimation 1.5s infinite alternate;
+.sparkle4 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    animation: sparkleAnimation 1.5s infinite alternate;
 }
 
-.sparkle5{
-  position:absolute;
-  top: 70%;
-  left: 4%;
-  color: rgba(255, 255, 255, 0.5);    
-  font-size: 2em;
-  animation: sparkleAnimation 1.5s infinite alternate;
+.sparkle5 {
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    animation: sparkleAnimation 1.5s infinite alternate;
 }
 
-.sparkle6{
-  position:absolute;
-  top: 90%;
-  left: 90%;    
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 2em;
-  animation: sparkleAnimation 1.5s infinite alternate; 
-} 
+.sparkle6 {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 2em;
+    animation: sparkleAnimation 1.5s infinite alternate;
+}
 
 @keyframes sparkleAnimation {
-  0% {
-    opacity: 0.2;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.5);
-  }
-  100% {
-    opacity: 0.2;
-    transform: scale(1);
-  }
+    0% {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+    100% {
+        opacity: 0.2;
+        transform: scale(1);
+    }
 }
